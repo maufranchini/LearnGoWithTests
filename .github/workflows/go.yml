@@ -19,7 +19,4 @@ jobs:
         go-version: 1.18
 
     - name: Test
-      run: |
-        go work init
-        go work use .
-        go test -v ./...
+      run: go test -v ./...
